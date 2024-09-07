@@ -123,8 +123,6 @@ END
 -- EXERCISE 3, QUESTION 4: Write a query to call the stored procedure, passing a valid school ID and a leader score of 50, to check that the procedure works as expected
 
 DELIMITER ;
-  
-SELECT School_ID, Leaders_icon FROM chicago_public_schools WHERE School_ID =610038;
 
 CALL UPDATE_LEADERS_SCORE(610038,100);
 
